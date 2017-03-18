@@ -1,0 +1,8 @@
+﻿<span ng-repeat="entry in model.entries track by $index">
+    <!--The content put inside the component tag will be displayed inside the transclude tag,
+    if there is not content the * symbol will be displayed-->
+    <ng-transclude>
+
+        *
+    </ng-transclude>
+</span>
